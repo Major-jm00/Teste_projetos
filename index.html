@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Iphones 2023</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="navigation">
+            <a href="#"><img src="logo.png" alt="Logomarca IOS" class="Logo"></a>
+          <ul>
+            <li><a href="#">Mac</a></li>
+            <li><a href="#">Ipads</a></li>
+            <li><a href="#" class="check">Iphone</a></li>
+            <li><a href="#">Apple Watch</a></li>
+            <li><a href="#">AirPods</a></li>
+            <li><a href="#">Só na Apple</a></li>
+            <li><a href="#">Suporte</a></li>
+            
+          </ul>
+
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="circle"></div>
+            <div class="main-text">
+                <img src="iphone13.png" alt="">
+                <h3>Eleve Seus Status.</h3>
+                <p>O iPhone 13 tem uma tela superbrilhante projetada para ser resistente.<br> Faz vídeos com qualidade de cinema. Seu chip tem uma velocidade impressionante.<br>
+                     E ganhou um aumento notável em bateria.</p>
+                     
+                    <br>Sistema avançado de câmera dupla com câmeras Wide e Ultra Wide de 12MP; <br>Estilos fotográficos, Smart HDR 4, modo noturno, gravação 4K Dolby Vision HDR</br></p>
+                        
+                <h5>A partir de R$ 5.174,10</h5>
+                <a href="#" class="btn">Compre Já</a>
+                <div class="text">
+                   <h5>Escolha sua cor favorita:</h5>
+                </div>
+        <div class="content">
+            <span id="green" onclick ="Cellcollor('img/green.png');CollorCIrcle('#445c42')"></span>
+            <span id="pink" onclick ="Cellcollor('img/pink.png');CollorCIrcle('#ffc9cf')"></span>
+            <span id="blue" onclick ="Cellcollor('img/blue.png');CollorCIrcle('#0b839e')"></span>
+            <span id="black"onclick ="Cellcollor('img/black.png');CollorCIrcle('#151f35e5')"></span>
+            <span id="white"onclick ="Cellcollor('img/white.png');CollorCIrcle('#e0dbd7')"></span>
+            <span id="red"onclick = "Cellcollor('img/red.png');CollorCIrcle('#df0b20')"></span>
+           
+       </div>
+        </div>
+        <div class="main-img">
+            <img src="green.png" alt="imagem do iphone 
+            verde" id="iphone">
+
+        </div>
+    </section>
+</main>
+<script type="text/javascript">
+   function Cellcollor(e){
+            document.querySelector('#iphone').src = e;
+           
+        }
+function CollorCIrcle(color){
+    const circle = document.querySelector('.circle');
+    circle.style.background=color;
+}
+
+</script>
+</body>
+
+</html>
